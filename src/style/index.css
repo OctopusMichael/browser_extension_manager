@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    /* Neutral */
+--color-*:initial;
+--color-neutral-900: #08143e;
+--color-neutral-800: #202536;
+--color-neutral-700: #2f364b;
+--color-neutral-600: #535868;
+--color-neutral-300: #c6c6c6;
+--color-neutral-200: #d5e1f5;
+--color-neutral-100: #ededed;
+--color-neutral-0:   #fafcfd;
+
+    /* Red */
+--color-red-400: #f37b6b;
+--color-red-500: #e4574e;
+--color-red-700: #b22d22;
+/* Gradient */
+--color-light-gradient: `linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%)`;
+--color-dark-gradient: "linear-gradient(180deg, #040918 0%, #091540 100%)";
+
+    /* Font-Size (paragraph) */ 
+--text-paragraph: 16px;
+
+}
